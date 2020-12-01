@@ -1,0 +1,82 @@
+/*Banner image*/
+body,html {
+        height: 100%;
+        font-family: "Arial Black";
+        overflow: auto;
+}
+
+
+.img-fluid{
+
+    background-color:black;
+    height: 350px ;
+    margin-top:0 !important;
+
+
+}
+
+.navbar{
+
+background-color:cornflowerblue;
+padding:0;
+
+
+}
+
+/*Navbar menu*/
+
+.navbar ul li{
+border-right:2px solid white;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    display: block;
+    padding: 13px 50px;
+    color: white;
+
+}
+
+.navbar ul li a:hover{
+color: white !important;
+}
+
+.navbar ul li:hover{
+background-color:black;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+        .navbar-light .navbar-nav .nav-link{
+             font-size:15px;
+             padding: 13.5px 40px;
+        }
+}
+
+@media screen and (max-width: 1350px) {
+
+        .navbar-light .navbar-nav .nav-link{
+             font-size:12px;
+             padding: 16px 50px !important;
+        }
+}
+
+
+
+.navbar-nav > li > .dropdown-menu {
+background-color: green !important;
+padding:0 !important;
+margin:0 !important;
+position:absolute !important;
+}
+
+
+
+.navbar-nav > li > .dropdown-menu a:hover {
+background-color: black;
+}
+
+
+
